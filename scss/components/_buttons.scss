@@ -1,0 +1,13 @@
+.download{
+    padding: 4px 10px;
+    background-color: $color-button;
+    border: none;
+    border-radius: 4px;
+    color: $color-white;
+    box-shadow: 1px 3px 3px $color-SVG
+}
+
+.jumbotron .download{
+    padding: 6px 12px;
+    width:100px;
+}

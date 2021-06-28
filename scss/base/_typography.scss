@@ -1,0 +1,46 @@
+//Header
+header{
+    color: $color-text;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+//Jumbotron
+.jumbotron{
+    color: $color-text;
+}
+
+.jumbo-text h1{
+    font-size: 3rem;
+    text-shadow: 1px 2px 4px $color-text;
+}
+
+
+
+
+
+
+//Offers
+.firebase-offers h3{
+    color: $color-white;
+    text-align: center;
+    font-weight: 100; 
+    & span{
+        font-weight: 900;
+    }
+}
+
+.orange-text {
+    color: $color-heading;
+}
+
+.offer-title {
+    color: $color-heading;
+}
+
+.offer-detail {
+    color: white;
+}
