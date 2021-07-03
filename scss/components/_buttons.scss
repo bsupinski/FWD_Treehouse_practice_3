@@ -7,6 +7,11 @@
     box-shadow: 1px 3px 3px $color-SVG
 }
 
+.download:active{
+    background-color: darken($color: $color-button, $amount: 10);
+    box-shadow: inset 2px 2px 3px darken($color: $color-button, $amount: 30);
+}
+
 .jumbotron .download{
     padding: 6px 12px;
     width:100px;

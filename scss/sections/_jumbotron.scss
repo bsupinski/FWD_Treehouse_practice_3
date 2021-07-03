@@ -10,7 +10,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -37,18 +37,16 @@
 }
 
 .fire-logo{
-    display: flex;
-    justify-content: center;
     position: absolute;
     width: 100%;
     max-width: 250px;
     opacity: 0.15;
-    left: 50%;
-    transform: translateX(-50%);
     @include media-q('small sc'){
         position: static;
         opacity: 1;
-        max-width: 30%;
+        max-width: 50%;
+        left: 0%;
+        transform: translateX(0%);
     }
 }
 
